@@ -33,7 +33,7 @@ uv run quarto preview   # live preview while editing
 1. Add a `.qmd` file (or an `.ipynb`) and list it in `index.qmd`.
 2. Add any new packages with `uv add <package>` so `pyproject.toml` and `uv.lock` stay in sync.
 3. Add references to `references.bib`.
-4. For a Typst paper, add `papers/<name>.typ` and link `papers/<name>.pdf` from `index.qmd`. For LaTeX, build the PDF separately (for example with Tectonic) and commit it under `papers/`; the `papers/*.pdf` resource rule publishes it.
+4. For a Typst paper, add `papers/<name>.typ` and link `papers/<name>.pdf` from `index.qmd`. For LaTeX, build the PDF separately (for example with Tectonic), commit it under `papers/static/`, and add `papers/static/*.pdf` to `project: resources:` in `_quarto.yml`.
 
 ## Deployment
 
