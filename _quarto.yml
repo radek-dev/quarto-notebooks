@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Quarto Notebooks"
+  site-url: https://radek-dev.github.io/quarto-notebooks/
+  repo-url: https://github.com/radek-dev/quarto-notebooks
+  navbar:
+    left:
+      - href: index.qmd
+        text: Notebooks
+    right:
+      - text: "← Notebook Gallery"
+        href: https://radek-dev.github.io/notebook-gallery/
+      - icon: github
+        href: https://github.com/radek-dev/quarto-notebooks
+        aria-label: GitHub repository
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    embed-resources: false
+
+bibliography: references.bib
+
+execute:
+  echo: true
+  warning: false

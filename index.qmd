@@ -1,0 +1,18 @@
+---
+title: "Quarto Notebooks"
+---
+
+Reproducible scientific notebooks, rendered with [Quarto](https://quarto.org) and managed with [uv](https://docs.astral.sh/uv/). Part of the [Notebook Gallery](https://radek-dev.github.io/notebook-gallery/).
+
+| Notebook | Description |
+| :-- | :-- |
+| [The Central Limit Theorem](clt.qmd) | Simulation showing sample means becoming normal, on synthetic data |
+
+## Reproduce
+
+```sh
+git clone https://github.com/radek-dev/quarto-notebooks
+cd quarto-notebooks
+uv sync
+uv run quarto render
+```
