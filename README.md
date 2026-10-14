@@ -6,7 +6,9 @@ Reproducible scientific notebooks rendered with [Quarto](https://quarto.org) and
 
 | Notebook | Description |
 | :-- | :-- |
-| `clt.qmd` | The central limit theorem, simulated on synthetic data |
+| [`clt.qmd`](https://radek-dev.github.io/quarto-notebooks/clt.html) | The central limit theorem, simulated on synthetic data |
+
+Related: [notebook-gallery](https://github.com/radek-dev/notebook-gallery) · [marimo-notebooks](https://github.com/radek-dev/marimo-notebooks) · [streamlit-apps](https://github.com/radek-dev/streamlit-apps)
 
 ## Reproduce
 
