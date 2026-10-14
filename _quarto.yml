@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  pre-render: python scripts/build_papers.py
+  resources:
+    - papers/*.pdf
 
 website:
   title: "Quarto Notebooks"

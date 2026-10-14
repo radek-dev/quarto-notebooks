@@ -4,6 +4,7 @@ _site/
 __pycache__/
 /.jupyter_cache/
 *_files/
+papers/*.pdf
 
 /.quarto/
 **/*.quarto_ipynb

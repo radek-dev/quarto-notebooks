@@ -8,6 +8,12 @@ Reproducible scientific notebooks, rendered with [Quarto](https://quarto.org) an
 | :-- | :-- |
 | [The Central Limit Theorem](clt.qmd) | Simulation showing sample means becoming normal, on synthetic data |
 
+## Papers
+
+| Paper | Description |
+| :-- | :-- |
+| [Estimating a Mean with Confidence Intervals](papers/confidence-intervals.pdf) | A Typst document with an equation, table and figure (PDF) |
+
 ## Reproduce
 
 ```sh
